@@ -1,0 +1,187 @@
+{
+  "changes": [
+    "ADD 206bc446977fe98a0aeb02ceb0485e2e ca625ae68e4d4a58f9ba859ff3420557 PROPERTY",
+    "DEL cab64c5af73a02ce213c72c614ccdc8f CLOUD",
+    "DEL e00de214b9499ef45a5d63820599b004 CONNECTION",
+    "DEL 1bf7dd494a96ef2170e0a935d57f4acf CONNECTION",
+    "ADD f8e1d361d64d651cd3a7e7d28074200c 1 CLOUD",
+    "MOD f8e1d361d64d651cd3a7e7d28074200c CLOUD POS 340 10",
+    "ADD eeee87bae30477fbdb11fc3124152673 1 CONNECTION",
+    "MOD eeee87bae30477fbdb11fc3124152673 CONNECTION SRC_CHANGE f8e1d361d64d651cd3a7e7d28074200c",
+    "MOD eeee87bae30477fbdb11fc3124152673 CONNECTION TGT_CHANGE 587516af1efac0b9293f31639c6c31f3",
+    "DEL eeee87bae30477fbdb11fc3124152673 CONNECTION",
+    "ADD f4901639befb67e379db9b1fb281d7a8 1 CONNECTION",
+    "MOD f4901639befb67e379db9b1fb281d7a8 CONNECTION SRC_CHANGE f8e1d361d64d651cd3a7e7d28074200c",
+    "MOD f4901639befb67e379db9b1fb281d7a8 CONNECTION TGT_CHANGE 587516af1efac0b9293f31639c6c31f3",
+    "MOD d9fe74bd71c5f1efd83d8f6cfdd7bef5 CLOUD POS 520 130",
+    "MOD d9fe74bd71c5f1efd83d8f6cfdd7bef5 CLOUD POS 530 130",
+    "MOD d9fe74bd71c5f1efd83d8f6cfdd7bef5 CLOUD POS 540 130",
+    "MOD d9c0e52dd15274d51041b489c7cea0ad NODE NAME Hades"
+  ],
+  "snapshots": {
+    "206bc446977fe98a0aeb02ceb0485e2e": {
+      "id": "206bc446977fe98a0aeb02ceb0485e2e",
+      "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+      "type": "property",
+      "key": "password",
+      "value": "password",
+      "visible": true,
+      "extra_properties": {}
+    },
+    "ca625ae68e4d4a58f9ba859ff3420557": {
+      "id": "ca625ae68e4d4a58f9ba859ff3420557",
+      "parent_id": "d9c0e52dd15274d51041b489c7cea0ad",
+      "name": "grafana",
+      "type": "component",
+      "properties": [
+        {
+          "id": "c48bc0db15d0f5292a7c00b19ff998d8",
+          "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+          "og_key": "image",
+          "og_value": "grafana/grafana",
+          "key": "image",
+          "value": "grafana/grafana",
+          "type": "property",
+          "visible": true,
+          "extra_properties": {}
+        },
+        {
+          "id": "c445376a2c59a268ce678211ee4c47c8",
+          "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+          "og_key": "restart",
+          "og_value": "unless-stopped",
+          "key": "restart",
+          "value": "unless-stopped",
+          "type": "property",
+          "visible": true,
+          "extra_properties": {}
+        },
+        {
+          "id": "ef7909136ff326eff61942ef2fc79c40",
+          "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+          "og_key": "environment",
+          "og_value": "GF_SECURITY_ADMIN_USER=admin",
+          "key": "environment",
+          "value": "GF_SECURITY_ADMIN_USER=admin",
+          "type": "property",
+          "visible": true,
+          "extra_properties": {}
+        },
+        {
+          "id": "7081cd23b854ea758ce2afa03b288a64",
+          "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+          "og_key": "environment",
+          "og_value": "GF_SECURITY_ADMIN_PASSWORD=grafana",
+          "key": "environment",
+          "value": "GF_SECURITY_ADMIN_PASSWORD=grafana",
+          "type": "property",
+          "visible": true,
+          "extra_properties": {}
+        }
+      ],
+      "extra_properties": {
+        "size": [
+          320,
+          100
+        ]
+      }
+    },
+    "f8e1d361d64d651cd3a7e7d28074200c": {
+      "id": "f8e1d361d64d651cd3a7e7d28074200c",
+      "parent_id": "1",
+      "name": "Cthulu",
+      "type": "cloud",
+      "maps": {},
+      "custom_name": {},
+      "lite_node": {},
+      "extra_properties": {
+        "position": [
+          340,
+          10
+        ]
+      }
+    },
+    "eeee87bae30477fbdb11fc3124152673": {
+      "id": "eeee87bae30477fbdb11fc3124152673",
+      "parent_id": "1",
+      "from_id": "f8e1d361d64d651cd3a7e7d28074200c",
+      "to_id": "587516af1efac0b9293f31639c6c31f3",
+      "name": "",
+      "type": "connection",
+      "connector_type": "SIMPLE",
+      "extra_properties": {}
+    },
+    "f4901639befb67e379db9b1fb281d7a8": {
+      "id": "f4901639befb67e379db9b1fb281d7a8",
+      "parent_id": "1",
+      "from_id": "f8e1d361d64d651cd3a7e7d28074200c",
+      "to_id": "587516af1efac0b9293f31639c6c31f3",
+      "name": "",
+      "type": "connection",
+      "connector_type": "SIMPLE",
+      "extra_properties": {}
+    },
+    "d9fe74bd71c5f1efd83d8f6cfdd7bef5": {
+      "id": "d9fe74bd71c5f1efd83d8f6cfdd7bef5",
+      "parent_id": "1",
+      "name": "front-tier",
+      "type": "cloud",
+      "maps": [
+        {
+          "id": "2de74da930acd8dd9e9806d04dfed83f",
+          "parent_id": "d9fe74bd71c5f1efd83d8f6cfdd7bef5",
+          "extra_properties": {},
+          "level": 2,
+          "py_class": "Map",
+          "name": "properties",
+          "properties": [
+            {
+              "id": "de784d9b2aab805a5d8b979281a9e43d",
+              "parent_id": "2de74da930acd8dd9e9806d04dfed83f",
+              "extra_properties": {},
+              "level": 2,
+              "py_class": "Property",
+              "key": "external",
+              "value": "True",
+              "visible": true
+            },
+            {
+              "id": "676b7d052f7a24d7561cb4e7fb6e0725",
+              "parent_id": "2de74da930acd8dd9e9806d04dfed83f",
+              "extra_properties": {},
+              "level": 2,
+              "py_class": "Property",
+              "key": "driver",
+              "value": "overlay",
+              "visible": true
+            }
+          ]
+        }
+      ],
+      "custom_name": "front-end-net",
+      "lite_node": true,
+      "extra_properties": {
+        "position": [
+          540,
+          130
+        ]
+      }
+    },
+    "d9c0e52dd15274d51041b489c7cea0ad": {
+      "id": "d9c0e52dd15274d51041b489c7cea0ad",
+      "parent_id": "1",
+      "name": "Hades",
+      "type": "node",
+      "extra_properties": {
+        "size": [
+          340,
+          290
+        ],
+        "position": [
+          420,
+          250
+        ]
+      }
+    }
+  }
+}

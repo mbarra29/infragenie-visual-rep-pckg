@@ -1,0 +1,84 @@
+{
+  "add": [
+    "273162d7a19ed598d0437b147194b54f",
+    "22db1096ce01958983d04799a7ba65b2",
+    "b1d80c924e48130818b52a57601576e8",
+    "52e5ecd9bfa62ccbacb5793dff132c40",
+    "269efabfca38c4e6d677782d783e175c"
+  ],
+  "delete": [
+    "cab64c5af73a02ce213c72c614ccdc8f"
+  ],
+  "changes": [
+    "22db1096ce01958983d04799a7ba65b2",
+    "b1d80c924e48130818b52a57601576e8",
+    "269efabfca38c4e6d677782d783e175c",
+    "c445376a2c59a268ce678211ee4c47c8"
+  ],
+  "snapshots": {
+    "c445376a2c59a268ce678211ee4c47c8": {
+      "id": "c445376a2c59a268ce678211ee4c47c8",
+      "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+      "extra_properties": {},
+      "key": "restart",
+      "value": "NEW-stopped",
+      "visible": true,
+      "changed": true,
+      "py_class": "Property"
+    },
+    "273162d7a19ed598d0437b147194b54f": {
+      "id": "273162d7a19ed598d0437b147194b54f",
+      "parent_id": "MergedDiagram",
+      "extra_properties": {},
+      "name": "text",
+      "changed": true,
+      "py_class": "Artifact"
+    },
+    "22db1096ce01958983d04799a7ba65b2": {
+      "id": "22db1096ce01958983d04799a7ba65b2",
+      "parent_id": "MergedDiagram",
+      "extra_properties": {
+        "plantuml_connector": "-"
+      },
+      "name": "",
+      "from_id": "d9c0e52dd15274d51041b489c7cea0ad",
+      "to_id": "273162d7a19ed598d0437b147194b54f",
+      "connector_type": "SIMPLE",
+      "changed": true,
+      "py_class": "Connector"
+    },
+    "b1d80c924e48130818b52a57601576e8": {
+      "id": "b1d80c924e48130818b52a57601576e8",
+      "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+      "extra_properties": {},
+      "key": "text",
+      "value": "2",
+      "visible": true,
+      "changed": true,
+      "py_class": "Property"
+    },
+    "52e5ecd9bfa62ccbacb5793dff132c40": {
+      "id": "52e5ecd9bfa62ccbacb5793dff132c40",
+      "parent_id": "MergedDiagram",
+      "extra_properties": {},
+      "name": "Text",
+      "properties": [],
+      "diagram": null,
+      "changed": true,
+      "py_class": "Component"
+    },
+    "269efabfca38c4e6d677782d783e175c": {
+      "id": "269efabfca38c4e6d677782d783e175c",
+      "parent_id": "MergedDiagram",
+      "extra_properties": {
+        "plantuml_connector": "-"
+      },
+      "name": "",
+      "from_id": "587516af1efac0b9293f31639c6c31f3",
+      "to_id": "52e5ecd9bfa62ccbacb5793dff132c40",
+      "connector_type": "SIMPLE",
+      "changed": true,
+      "py_class": "Connector"
+    }
+  }
+}

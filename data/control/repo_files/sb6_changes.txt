@@ -1,0 +1,59 @@
+{
+  "add": [
+    "eaaa2dd7bc5ce1e4c09e2688e506be56",
+    "f6abdaeca096208ed02aec4990d6ee0c",
+    "e851c08b6d3438285d3402f815d991d5"
+  ],
+  "delete": [
+    "e00de214b9499ef45a5d63820599b004",
+    "1bf7dd494a96ef2170e0a935d57f4acf",
+    "cab64c5af73a02ce213c72c614ccdc8f"
+  ],
+  "changes": [
+    "eaaa2dd7bc5ce1e4c09e2688e506be56",
+    "f6abdaeca096208ed02aec4990d6ee0c",
+    "e851c08b6d3438285d3402f815d991d5",
+    "e5b1c7fcc1453c77b2f0388027659c6e"
+  ],
+  "snapshots": {
+    "e5b1c7fcc1453c77b2f0388027659c6e": {
+      "id": "e5b1c7fcc1453c77b2f0388027659c6e",
+      "parent_id": "3d7b8b1aff2aa001c67cef27112c5042",
+      "extra_properties": {},
+      "name": "127.0.0.1:8000-10000",
+      "changed": true,
+      "py_class": "Port"
+    },
+    "eaaa2dd7bc5ce1e4c09e2688e506be56": {
+      "id": "eaaa2dd7bc5ce1e4c09e2688e506be56",
+      "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+      "extra_properties": {},
+      "key": "hey",
+      "value": "there",
+      "visible": true,
+      "changed": true,
+      "py_class": "Property"
+    },
+    "f6abdaeca096208ed02aec4990d6ee0c": {
+      "id": "f6abdaeca096208ed02aec4990d6ee0c",
+      "parent_id": "MergedDiagram",
+      "extra_properties": {},
+      "name": "22",
+      "changed": true,
+      "py_class": "Port"
+    },
+    "e851c08b6d3438285d3402f815d991d5": {
+      "id": "e851c08b6d3438285d3402f815d991d5",
+      "parent_id": "MergedDiagram",
+      "extra_properties": {
+        "plantuml_connector": "-u->"
+      },
+      "name": "",
+      "from_id": "587516af1efac0b9293f31639c6c31f3",
+      "to_id": "f6abdaeca096208ed02aec4990d6ee0c",
+      "connector_type": "ARROW",
+      "changed": true,
+      "py_class": "Connector"
+    }
+  }
+}

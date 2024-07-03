@@ -1,0 +1,72 @@
+{
+  "add": [
+    "08d57edcda3ab1e45021ef095456c621",
+    "66f105d93f918457901c46fd3761d60c",
+    "1403acc9a5e403a28c1f0d393b68acf7"
+  ],
+  "delete": [
+    "cab64c5af73a02ce213c72c614ccdc8f"
+  ],
+  "changes": [
+    "1403acc9a5e403a28c1f0d393b68acf7",
+    "66f105d93f918457901c46fd3761d60c",
+    "c445376a2c59a268ce678211ee4c47c8",
+    "70861861e441ac29530725a684554205"
+  ],
+  "snapshots": {
+    "c445376a2c59a268ce678211ee4c47c8": {
+      "id": "c445376a2c59a268ce678211ee4c47c8",
+      "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+      "extra_properties": {},
+      "key": "restart",
+      "value": "unless-stopped",
+      "visible": true,
+      "changed": false,
+      "py_class": "Property"
+    },
+    "70861861e441ac29530725a684554205": {
+      "id": "70861861e441ac29530725a684554205",
+      "parent_id": "b0b6236e8ab49920c48d10f339f1a86a",
+      "extra_properties": {},
+      "key": "image",
+      "value": "prom/prometheus.png",
+      "visible": true,
+      "changed": true,
+      "py_class": "Property"
+    },
+    "08d57edcda3ab1e45021ef095456c621": {
+      "id": "08d57edcda3ab1e45021ef095456c621",
+      "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+      "extra_properties": {},
+      "key": "text",
+      "value": "text",
+      "visible": true,
+      "changed": false,
+      "py_class": "Property"
+    },
+    "66f105d93f918457901c46fd3761d60c": {
+      "id": "66f105d93f918457901c46fd3761d60c",
+      "parent_id": "MergedDiagram",
+      "extra_properties": {},
+      "name": "uwu",
+      "custom_name": "",
+      "properties": [],
+      "lite_node": true,
+      "changed": true,
+      "py_class": "Cloud"
+    },
+    "1403acc9a5e403a28c1f0d393b68acf7": {
+      "id": "1403acc9a5e403a28c1f0d393b68acf7",
+      "parent_id": "MergedDiagram",
+      "extra_properties": {
+        "plantuml_connector": "-"
+      },
+      "name": "",
+      "from_id": "66f105d93f918457901c46fd3761d60c",
+      "to_id": "587516af1efac0b9293f31639c6c31f3\u00a0",
+      "connector_type": "SIMPLE",
+      "changed": true,
+      "py_class": "Connector"
+    }
+  }
+}

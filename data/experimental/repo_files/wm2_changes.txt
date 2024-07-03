@@ -1,0 +1,130 @@
+{
+  "changes": [
+    "ADD 7049e669279e2fcbdf3275e036d3eb92 ca625ae68e4d4a58f9ba859ff3420557 PROPERTY",
+    "DEL cab64c5af73a02ce213c72c614ccdc8f CLOUD",
+    "DEL e00de214b9499ef45a5d63820599b004 CONNECTION",
+    "DEL 1bf7dd494a96ef2170e0a935d57f4acf CONNECTION",
+    "MOD 7049e669279e2fcbdf3275e036d3eb92 PROPERTY KEY_VALUE color black",
+    "ADD e39d66c28bdd30572c6d620e619fba4e 1 COMPONENT",
+    "MOD e39d66c28bdd30572c6d620e619fba4e COMPONENT POS 290 80",
+    "ADD c9f4e178606fefb9261b00c03369b22e 1 CONNECTION",
+    "MOD c9f4e178606fefb9261b00c03369b22e CONNECTION SRC_CHANGE e39d66c28bdd30572c6d620e619fba4e",
+    "MOD c9f4e178606fefb9261b00c03369b22e CONNECTION TGT_CHANGE 587516af1efac0b9293f31639c6c31f3",
+    "MOD e39d66c28bdd30572c6d620e619fba4e COMPONENT POS 300 110",
+    "MOD e39d66c28bdd30572c6d620e619fba4e COMPONENT POS 290 60",
+    "MOD e39d66c28bdd30572c6d620e619fba4e COMPONENT POS 290 70",
+    "MOD c445376a2c59a268ce678211ee4c47c8 PROPERTY KEY_VALUE restart every-one-sec"
+  ],
+  "snapshots": {
+    "7049e669279e2fcbdf3275e036d3eb92": {
+      "id": "7049e669279e2fcbdf3275e036d3eb92",
+      "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+      "type": "property",
+      "key": "color",
+      "value": "black",
+      "visible": true,
+      "extra_properties": {}
+    },
+    "ca625ae68e4d4a58f9ba859ff3420557": {
+      "id": "ca625ae68e4d4a58f9ba859ff3420557",
+      "parent_id": "d9c0e52dd15274d51041b489c7cea0ad",
+      "name": "grafana",
+      "type": "component",
+      "properties": [
+        {
+          "id": "c48bc0db15d0f5292a7c00b19ff998d8",
+          "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+          "og_key": "image",
+          "og_value": "grafana/grafana",
+          "key": "image",
+          "value": "grafana/grafana",
+          "type": "property",
+          "visible": true,
+          "extra_properties": {}
+        },
+        {
+          "id": "c445376a2c59a268ce678211ee4c47c8",
+          "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+          "og_key": "restart",
+          "og_value": "every-one-sec",
+          "key": "restart",
+          "value": "every-one-sec",
+          "type": "property",
+          "visible": true,
+          "extra_properties": {}
+        },
+        {
+          "id": "ef7909136ff326eff61942ef2fc79c40",
+          "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+          "og_key": "environment",
+          "og_value": "GF_SECURITY_ADMIN_USER=admin",
+          "key": "environment",
+          "value": "GF_SECURITY_ADMIN_USER=admin",
+          "type": "property",
+          "visible": true,
+          "extra_properties": {}
+        },
+        {
+          "id": "7081cd23b854ea758ce2afa03b288a64",
+          "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+          "og_key": "environment",
+          "og_value": "GF_SECURITY_ADMIN_PASSWORD=grafana",
+          "key": "environment",
+          "value": "GF_SECURITY_ADMIN_PASSWORD=grafana",
+          "type": "property",
+          "visible": true,
+          "extra_properties": {}
+        },
+        {
+          "id": "7049e669279e2fcbdf3275e036d3eb92",
+          "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+          "og_key": "color",
+          "og_value": "black",
+          "key": "color",
+          "value": "black",
+          "type": "property",
+          "visible": true,
+          "extra_properties": {}
+        }
+      ],
+      "extra_properties": {
+        "size": [
+          320,
+          100
+        ]
+      }
+    },
+    "e39d66c28bdd30572c6d620e619fba4e": {
+      "id": "e39d66c28bdd30572c6d620e619fba4e",
+      "parent_id": "1",
+      "name": "TaylorSwift",
+      "type": "component",
+      "properties": [],
+      "extra_properties": {
+        "position": [
+          290,
+          70
+        ]
+      }
+    },
+    "c9f4e178606fefb9261b00c03369b22e": {
+      "id": "c9f4e178606fefb9261b00c03369b22e",
+      "parent_id": "1",
+      "from_id": "e39d66c28bdd30572c6d620e619fba4e",
+      "to_id": "587516af1efac0b9293f31639c6c31f3",
+      "name": "",
+      "type": "connection",
+      "connector_type": "SIMPLE",
+      "extra_properties": {}
+    },
+    "c445376a2c59a268ce678211ee4c47c8": {
+      "id": "c445376a2c59a268ce678211ee4c47c8",
+      "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+      "type": "property",
+      "key": "restart",
+      "value": "every-one-sec",
+      "visible": true,
+      "extra_properties": {}
+    }
+  }
+}

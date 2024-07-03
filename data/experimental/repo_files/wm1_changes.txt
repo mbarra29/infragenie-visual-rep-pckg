@@ -1,0 +1,141 @@
+{
+  "changes": [
+    "ADD 304e89617c6a0416f87c718c37293fd6 ca625ae68e4d4a58f9ba859ff3420557 PROPERTY",
+    "DEL cab64c5af73a02ce213c72c614ccdc8f CLOUD",
+    "DEL e00de214b9499ef45a5d63820599b004 CONNECTION",
+    "DEL 1bf7dd494a96ef2170e0a935d57f4acf CONNECTION",
+    "ADD 39b3e39d565facb94169a470289f2721 1 NODE",
+    "MOD 39b3e39d565facb94169a470289f2721 NODE POS 290 80",
+    "ADD 879436d7312d0d4d714af09ca73b6b29 1 CONNECTION",
+    "ADD 17eab8be92cb825f3f67517e35478da6 1 CONNECTION",
+    "MOD 17eab8be92cb825f3f67517e35478da6 CONNECTION SRC_CHANGE 39b3e39d565facb94169a470289f2721",
+    "MOD 17eab8be92cb825f3f67517e35478da6 CONNECTION TGT_CHANGE 587516af1efac0b9293f31639c6c31f3",
+    "MOD 39b3e39d565facb94169a470289f2721 NODE POS 730 210",
+    "MOD 39b3e39d565facb94169a470289f2721 NODE POS 340 120",
+    "MOD 39b3e39d565facb94169a470289f2721 NODE POS 330 80",
+    "MOD 39b3e39d565facb94169a470289f2721 NODE POS 290 70",
+    "MOD ef7909136ff326eff61942ef2fc79c40 PROPERTY KEY_VALUE environment GF_SECURITY_ADMIN_USER=none",
+    "MOD 304e89617c6a0416f87c718c37293fd6 PROPERTY KEY_VALUE property_test test"
+  ],
+  "snapshots": {
+    "304e89617c6a0416f87c718c37293fd6": {
+      "id": "304e89617c6a0416f87c718c37293fd6",
+      "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+      "type": "property",
+      "key": "property_test",
+      "value": "test",
+      "visible": true,
+      "extra_properties": {}
+    },
+    "ca625ae68e4d4a58f9ba859ff3420557": {
+      "id": "ca625ae68e4d4a58f9ba859ff3420557",
+      "parent_id": "d9c0e52dd15274d51041b489c7cea0ad",
+      "name": "grafana",
+      "type": "component",
+      "properties": [
+        {
+          "id": "c48bc0db15d0f5292a7c00b19ff998d8",
+          "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+          "og_key": "image",
+          "og_value": "grafana/grafana",
+          "key": "image",
+          "value": "grafana/grafana",
+          "type": "property",
+          "visible": true,
+          "extra_properties": {}
+        },
+        {
+          "id": "c445376a2c59a268ce678211ee4c47c8",
+          "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+          "og_key": "restart",
+          "og_value": "unless-stopped",
+          "key": "restart",
+          "value": "unless-stopped",
+          "type": "property",
+          "visible": true,
+          "extra_properties": {}
+        },
+        {
+          "id": "ef7909136ff326eff61942ef2fc79c40",
+          "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+          "og_key": "environment",
+          "og_value": "GF_SECURITY_ADMIN_USER=none",
+          "key": "environment",
+          "value": "GF_SECURITY_ADMIN_USER=none",
+          "type": "property",
+          "visible": true,
+          "extra_properties": {}
+        },
+        {
+          "id": "7081cd23b854ea758ce2afa03b288a64",
+          "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+          "og_key": "environment",
+          "og_value": "GF_SECURITY_ADMIN_PASSWORD=grafana",
+          "key": "environment",
+          "value": "GF_SECURITY_ADMIN_PASSWORD=grafana",
+          "type": "property",
+          "visible": true,
+          "extra_properties": {}
+        },
+        {
+          "id": "304e89617c6a0416f87c718c37293fd6",
+          "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+          "og_key": "property_test",
+          "og_value": "test",
+          "key": "property_test",
+          "value": "test",
+          "type": "property",
+          "visible": true,
+          "extra_properties": {}
+        }
+      ],
+      "extra_properties": {
+        "size": [
+          320,
+          100
+        ]
+      }
+    },
+    "39b3e39d565facb94169a470289f2721": {
+      "id": "39b3e39d565facb94169a470289f2721",
+      "parent_id": "1",
+      "name": "test",
+      "type": "node",
+      "extra_properties": {
+        "position": [
+          290,
+          70
+        ]
+      }
+    },
+    "879436d7312d0d4d714af09ca73b6b29": {
+      "id": "879436d7312d0d4d714af09ca73b6b29",
+      "parent_id": "1",
+      "from_id": "null",
+      "to_id": "null",
+      "name": "newSimpleLink",
+      "type": "connection",
+      "connector_type": "SIMPLE",
+      "extra_properties": {}
+    },
+    "17eab8be92cb825f3f67517e35478da6": {
+      "id": "17eab8be92cb825f3f67517e35478da6",
+      "parent_id": "1",
+      "from_id": "39b3e39d565facb94169a470289f2721",
+      "to_id": "587516af1efac0b9293f31639c6c31f3",
+      "name": "",
+      "type": "connection",
+      "connector_type": "SIMPLE",
+      "extra_properties": {}
+    },
+    "ef7909136ff326eff61942ef2fc79c40": {
+      "id": "ef7909136ff326eff61942ef2fc79c40",
+      "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+      "type": "property",
+      "key": "environment",
+      "value": "GF_SECURITY_ADMIN_USER=none",
+      "visible": true,
+      "extra_properties": {}
+    }
+  }
+}

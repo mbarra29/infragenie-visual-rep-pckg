@@ -1,0 +1,63 @@
+{
+  "add": [
+    "434c2864954154e53ed9804f56c5048a",
+    "c1c33861990afdc12510b7acefc079aa",
+    "070d5fc7a22a5dbfe7a743bc0dbf3f31"
+  ],
+  "delete": [
+    "cab64c5af73a02ce213c72c614ccdc8f"
+  ],
+  "changes": [
+    "a7ec9770cde994f29bed516850fa6f12",
+    "434c2864954154e53ed9804f56c5048a",
+    "c1c33861990afdc12510b7acefc079aa",
+    "070d5fc7a22a5dbfe7a743bc0dbf3f31",
+    "c445376a2c59a268ce678211ee4c47c8"
+  ],
+  "snapshots": {
+    "c445376a2c59a268ce678211ee4c47c8": {
+      "id": "c445376a2c59a268ce678211ee4c47c8",
+      "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+      "extra_properties": {},
+      "key": "restart",
+      "value": "ifCapitalism\n",
+      "visible": true,
+      "changed": true,
+      "py_class": "Property"
+    },
+    "434c2864954154e53ed9804f56c5048a": {
+      "id": "434c2864954154e53ed9804f56c5048a",
+      "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+      "extra_properties": {},
+      "key": "text",
+      "value": "propertyIsTheft",
+      "visible": true,
+      "changed": true,
+      "py_class": "Property"
+    },
+    "c1c33861990afdc12510b7acefc079aa": {
+      "id": "c1c33861990afdc12510b7acefc079aa",
+      "parent_id": "MergedDiagram",
+      "extra_properties": {},
+      "name": "MyElement",
+      "custom_name": "",
+      "properties": [],
+      "lite_node": true,
+      "changed": true,
+      "py_class": "Cloud"
+    },
+    "070d5fc7a22a5dbfe7a743bc0dbf3f31": {
+      "id": "070d5fc7a22a5dbfe7a743bc0dbf3f31",
+      "parent_id": "MergedDiagram",
+      "extra_properties": {
+        "plantuml_connector": "-"
+      },
+      "name": "",
+      "from_id": "c1c33861990afdc12510b7acefc079aa",
+      "to_id": "587516af1efac0b9293f31639c6c31f3",
+      "connector_type": "SIMPLE",
+      "changed": true,
+      "py_class": "Connector"
+    }
+  }
+}

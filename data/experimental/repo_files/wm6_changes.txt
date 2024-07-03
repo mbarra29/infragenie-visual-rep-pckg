@@ -1,0 +1,150 @@
+{
+  "changes": [
+    "ADD 287a84b9926649640dacce2b20c299f3 ca625ae68e4d4a58f9ba859ff3420557 PROPERTY",
+    "DEL cab64c5af73a02ce213c72c614ccdc8f CLOUD",
+    "DEL e00de214b9499ef45a5d63820599b004 CONNECTION",
+    "DEL 1bf7dd494a96ef2170e0a935d57f4acf CONNECTION",
+    "ADD 51c75ee55467f0cb79862804520601af 1 CLOUD",
+    "MOD 51c75ee55467f0cb79862804520601af CLOUD POS 340 10",
+    "ADD 617bfa9d2eda323342ce263d56749f2b 1 CONNECTION",
+    "ADD b11d892c15d55e07d61fee710b49b3ee 1 CONNECTION",
+    "MOD b11d892c15d55e07d61fee710b49b3ee CONNECTION SRC_CHANGE 51c75ee55467f0cb79862804520601af",
+    "MOD b11d892c15d55e07d61fee710b49b3ee CONNECTION TGT_CHANGE 587516af1efac0b9293f31639c6c31f3",
+    "MOD 5e543256c480ac577d30f76f9120eb74 CLOUD NAME Defined Name",
+    "MOD b11d892c15d55e07d61fee710b49b3ee CONNECTION SRC_CHANGE 587516af1efac0b9293f31639c6c31f3",
+    "MOD b11d892c15d55e07d61fee710b49b3ee CONNECTION TGT_CHANGE 51c75ee55467f0cb79862804520601af",
+    "DEL b11d892c15d55e07d61fee710b49b3ee CONNECTION",
+    "ADD 1d9fcf803a6fccf2f06dffc2fc3b9353 1 CONNECTION",
+    "MOD 1d9fcf803a6fccf2f06dffc2fc3b9353 CONNECTION SRC_CHANGE 587516af1efac0b9293f31639c6c31f3",
+    "MOD 1d9fcf803a6fccf2f06dffc2fc3b9353 CONNECTION TGT_CHANGE 51c75ee55467f0cb79862804520601af"
+  ],
+  "snapshots": {
+    "287a84b9926649640dacce2b20c299f3": {
+      "id": "287a84b9926649640dacce2b20c299f3",
+      "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+      "type": "property",
+      "key": "test",
+      "value": "new property",
+      "visible": true,
+      "extra_properties": {}
+    },
+    "ca625ae68e4d4a58f9ba859ff3420557": {
+      "id": "ca625ae68e4d4a58f9ba859ff3420557",
+      "parent_id": "d9c0e52dd15274d51041b489c7cea0ad",
+      "name": "grafana",
+      "type": "component",
+      "properties": [
+        {
+          "id": "c48bc0db15d0f5292a7c00b19ff998d8",
+          "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+          "og_key": "image",
+          "og_value": "grafana/grafana",
+          "key": "image",
+          "value": "grafana/grafana",
+          "type": "property",
+          "visible": true,
+          "extra_properties": {}
+        },
+        {
+          "id": "c445376a2c59a268ce678211ee4c47c8",
+          "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+          "og_key": "restart",
+          "og_value": "unless-stopped",
+          "key": "restart",
+          "value": "unless-stopped",
+          "type": "property",
+          "visible": true,
+          "extra_properties": {}
+        },
+        {
+          "id": "ef7909136ff326eff61942ef2fc79c40",
+          "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+          "og_key": "environment",
+          "og_value": "GF_SECURITY_ADMIN_USER=admin",
+          "key": "environment",
+          "value": "GF_SECURITY_ADMIN_USER=admin",
+          "type": "property",
+          "visible": true,
+          "extra_properties": {}
+        },
+        {
+          "id": "7081cd23b854ea758ce2afa03b288a64",
+          "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+          "og_key": "environment",
+          "og_value": "GF_SECURITY_ADMIN_PASSWORD=grafana",
+          "key": "environment",
+          "value": "GF_SECURITY_ADMIN_PASSWORD=grafana",
+          "type": "property",
+          "visible": true,
+          "extra_properties": {}
+        }
+      ],
+      "extra_properties": {
+        "size": [
+          320,
+          100
+        ]
+      }
+    },
+    "51c75ee55467f0cb79862804520601af": {
+      "id": "51c75ee55467f0cb79862804520601af",
+      "parent_id": "1",
+      "name": "task4",
+      "type": "cloud",
+      "maps": {},
+      "custom_name": {},
+      "lite_node": {},
+      "extra_properties": {
+        "position": [
+          340,
+          10
+        ]
+      }
+    },
+    "617bfa9d2eda323342ce263d56749f2b": {
+      "id": "617bfa9d2eda323342ce263d56749f2b",
+      "parent_id": "1",
+      "from_id": "null",
+      "to_id": "null",
+      "name": "newSimpleLink",
+      "type": "connection",
+      "connector_type": "SIMPLE",
+      "extra_properties": {}
+    },
+    "b11d892c15d55e07d61fee710b49b3ee": {
+      "id": "b11d892c15d55e07d61fee710b49b3ee",
+      "parent_id": "1",
+      "from_id": "587516af1efac0b9293f31639c6c31f3",
+      "to_id": "51c75ee55467f0cb79862804520601af",
+      "name": "",
+      "type": "connection",
+      "connector_type": "ARROW",
+      "extra_properties": {}
+    },
+    "5e543256c480ac577d30f76f9120eb74": {
+      "id": "5e543256c480ac577d30f76f9120eb74",
+      "parent_id": "1",
+      "name": "Defined Name",
+      "type": "cloud",
+      "maps": [],
+      "custom_name": "",
+      "lite_node": true,
+      "extra_properties": {
+        "position": [
+          20,
+          10
+        ]
+      }
+    },
+    "1d9fcf803a6fccf2f06dffc2fc3b9353": {
+      "id": "1d9fcf803a6fccf2f06dffc2fc3b9353",
+      "parent_id": "1",
+      "from_id": "587516af1efac0b9293f31639c6c31f3",
+      "to_id": "51c75ee55467f0cb79862804520601af",
+      "name": "",
+      "type": "connection",
+      "connector_type": "ARROW",
+      "extra_properties": {}
+    }
+  }
+}

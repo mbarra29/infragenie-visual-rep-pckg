@@ -1,0 +1,83 @@
+{
+  "add": [
+    "66dd866fee4eff1bde74c4170a1a9aba",
+    "b35f48e3c6ce7ce0a270b6dbdf087327",
+    "f63d96b8878c7192378274db04500beb"
+  ],
+  "delete": [
+    "cab64c5af73a02ce213c72c614ccdc8f"
+  ],
+  "changes": [
+    "b35f48e3c6ce7ce0a270b6dbdf087327",
+    "f63d96b8878c7192378274db04500beb",
+    "587516af1efac0b9293f31639c6c31f3"
+  ],
+  "snapshots": {
+    "587516af1efac0b9293f31639c6c31f3": {
+      "id": "587516af1efac0b9293f31639c6c31f3",
+      "parent_id": "MergedDiagram",
+      "extra_properties": {},
+      "name": "Datacat",
+      "components": [
+        {
+          "id": "cfb8a5b7ebe0f6a517a5ae436a93d5d8",
+          "parent_id": "587516af1efac0b9293f31639c6c31f3",
+          "extra_properties": {},
+          "name": "Datadog",
+          "properties": [
+            {
+              "id": "e170ca027a69fb8651c56570ad66d75c",
+              "parent_id": "cfb8a5b7ebe0f6a517a5ae436a93d5d8",
+              "extra_properties": {},
+              "key": "image",
+              "value": "datadog/datadog",
+              "visible": true,
+              "changed": false,
+              "py_class": "Property"
+            }
+          ],
+          "diagram": null,
+          "changed": false,
+          "py_class": "Component"
+        }
+      ],
+      "ports": [],
+      "artifacts": [],
+      "packages": [],
+      "changed": true,
+      "py_class": "Node"
+    },
+    "66dd866fee4eff1bde74c4170a1a9aba": {
+      "id": "66dd866fee4eff1bde74c4170a1a9aba",
+      "parent_id": "d9c0e52dd15274d51041b489c7cea0ad",
+      "extra_properties": {},
+      "name": "9999",
+      "changed": true,
+      "py_class": "Port"
+    },
+    "b35f48e3c6ce7ce0a270b6dbdf087327": {
+      "id": "b35f48e3c6ce7ce0a270b6dbdf087327",
+      "parent_id": "MergedDiagram",
+      "extra_properties": {},
+      "name": "idk",
+      "custom_name": "",
+      "properties": [],
+      "lite_node": true,
+      "changed": true,
+      "py_class": "Cloud"
+    },
+    "f63d96b8878c7192378274db04500beb": {
+      "id": "f63d96b8878c7192378274db04500beb",
+      "parent_id": "MergedDiagram",
+      "extra_properties": {
+        "plantuml_connector": "-"
+      },
+      "name": "",
+      "from_id": "b35f48e3c6ce7ce0a270b6dbdf087327",
+      "to_id": "587516af1efac0b9293f31639c6c31f3\n",
+      "connector_type": "SIMPLE",
+      "changed": true,
+      "py_class": "Connector"
+    }
+  }
+}

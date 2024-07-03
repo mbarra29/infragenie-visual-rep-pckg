@@ -1,0 +1,165 @@
+{
+  "changes": [
+    "ADD 1703682229be468917a90ecb0fce0ee9 ca625ae68e4d4a58f9ba859ff3420557 PROPERTY",
+    "DEL cab64c5af73a02ce213c72c614ccdc8f CLOUD",
+    "DEL e00de214b9499ef45a5d63820599b004 CONNECTION",
+    "DEL 1bf7dd494a96ef2170e0a935d57f4acf CONNECTION",
+    "ADD 8e52e3d553a19b6e3b8a2e95f6b6af9b 1 COMPONENT",
+    "MOD 8e52e3d553a19b6e3b8a2e95f6b6af9b COMPONENT POS 290 100",
+    "ADD c65d24d3c01f32215709f3aec9b581bc 1 CONNECTION",
+    "ADD 7eedbddebcba32c9fbbd1444437c051a 1 CONNECTION",
+    "MOD 8e52e3d553a19b6e3b8a2e95f6b6af9b COMPONENT POS 300 630",
+    "MOD c65d24d3c01f32215709f3aec9b581bc CONNECTION SRC_CHANGE 8e52e3d553a19b6e3b8a2e95f6b6af9b",
+    "MOD c65d24d3c01f32215709f3aec9b581bc CONNECTION TGT_CHANGE 587516af1efac0b9293f31639c6c31f3",
+    "MOD 8e52e3d553a19b6e3b8a2e95f6b6af9b COMPONENT POS 370 630",
+    "MOD d9fe74bd71c5f1efd83d8f6cfdd7bef5 CLOUD NAME Im-edited-muhahaahah"
+  ],
+  "snapshots": {
+    "1703682229be468917a90ecb0fce0ee9": {
+      "id": "1703682229be468917a90ecb0fce0ee9",
+      "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+      "type": "property",
+      "key": "my property",
+      "value": "foo",
+      "visible": true,
+      "extra_properties": {}
+    },
+    "ca625ae68e4d4a58f9ba859ff3420557": {
+      "id": "ca625ae68e4d4a58f9ba859ff3420557",
+      "parent_id": "d9c0e52dd15274d51041b489c7cea0ad",
+      "name": "grafana",
+      "type": "component",
+      "properties": [
+        {
+          "id": "c48bc0db15d0f5292a7c00b19ff998d8",
+          "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+          "og_key": "image",
+          "og_value": "grafana/grafana",
+          "key": "image",
+          "value": "grafana/grafana",
+          "type": "property",
+          "visible": true,
+          "extra_properties": {}
+        },
+        {
+          "id": "c445376a2c59a268ce678211ee4c47c8",
+          "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+          "og_key": "restart",
+          "og_value": "unless-stopped",
+          "key": "restart",
+          "value": "unless-stopped",
+          "type": "property",
+          "visible": true,
+          "extra_properties": {}
+        },
+        {
+          "id": "ef7909136ff326eff61942ef2fc79c40",
+          "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+          "og_key": "environment",
+          "og_value": "GF_SECURITY_ADMIN_USER=admin",
+          "key": "environment",
+          "value": "GF_SECURITY_ADMIN_USER=admin",
+          "type": "property",
+          "visible": true,
+          "extra_properties": {}
+        },
+        {
+          "id": "7081cd23b854ea758ce2afa03b288a64",
+          "parent_id": "ca625ae68e4d4a58f9ba859ff3420557",
+          "og_key": "environment",
+          "og_value": "GF_SECURITY_ADMIN_PASSWORD=grafana",
+          "key": "environment",
+          "value": "GF_SECURITY_ADMIN_PASSWORD=grafana",
+          "type": "property",
+          "visible": true,
+          "extra_properties": {}
+        }
+      ],
+      "extra_properties": {
+        "size": [
+          320,
+          100
+        ]
+      }
+    },
+    "8e52e3d553a19b6e3b8a2e95f6b6af9b": {
+      "id": "8e52e3d553a19b6e3b8a2e95f6b6af9b",
+      "parent_id": "1",
+      "name": "myComp",
+      "type": "component",
+      "properties": [],
+      "extra_properties": {
+        "position": [
+          370,
+          630
+        ]
+      }
+    },
+    "c65d24d3c01f32215709f3aec9b581bc": {
+      "id": "c65d24d3c01f32215709f3aec9b581bc",
+      "parent_id": "1",
+      "from_id": "8e52e3d553a19b6e3b8a2e95f6b6af9b",
+      "to_id": "587516af1efac0b9293f31639c6c31f3",
+      "name": "",
+      "type": "connection",
+      "connector_type": "SIMPLE",
+      "extra_properties": {}
+    },
+    "7eedbddebcba32c9fbbd1444437c051a": {
+      "id": "7eedbddebcba32c9fbbd1444437c051a",
+      "parent_id": "1",
+      "from_id": "null",
+      "to_id": "null",
+      "name": "MyLink",
+      "type": "connection",
+      "connector_type": "SIMPLE",
+      "extra_properties": {}
+    },
+    "d9fe74bd71c5f1efd83d8f6cfdd7bef5": {
+      "id": "d9fe74bd71c5f1efd83d8f6cfdd7bef5",
+      "parent_id": "1",
+      "name": "Im-edited-muhahaahah",
+      "type": "cloud",
+      "maps": [
+        {
+          "id": "2de74da930acd8dd9e9806d04dfed83f",
+          "parent_id": "d9fe74bd71c5f1efd83d8f6cfdd7bef5",
+          "extra_properties": {},
+          "level": 2,
+          "py_class": "Map",
+          "name": "properties",
+          "properties": [
+            {
+              "id": "de784d9b2aab805a5d8b979281a9e43d",
+              "parent_id": "2de74da930acd8dd9e9806d04dfed83f",
+              "extra_properties": {},
+              "level": 2,
+              "py_class": "Property",
+              "key": "external",
+              "value": "True",
+              "visible": true
+            },
+            {
+              "id": "676b7d052f7a24d7561cb4e7fb6e0725",
+              "parent_id": "2de74da930acd8dd9e9806d04dfed83f",
+              "extra_properties": {},
+              "level": 2,
+              "py_class": "Property",
+              "key": "driver",
+              "value": "overlay",
+              "visible": true
+            }
+          ]
+        }
+      ],
+      "custom_name": "front-end-net",
+      "lite_node": true,
+      "extra_properties": {
+        "position": [
+          480,
+          10
+        ]
+      }
+    }
+  }
+}
